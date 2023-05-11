@@ -72,7 +72,6 @@
     .mid-footer {
       ul {
         list-style-type: none;
-
         li {
           &:first-of-type {
             font-weight: 600;
@@ -81,6 +80,10 @@
           }
           font-size: 12px;
           line-height: 1.5rem;
+        }
+        .footer-list-item {
+          text-decoration: none;
+          color: black;
         }
       }
 
