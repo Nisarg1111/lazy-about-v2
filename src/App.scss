@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+
+$titleLg: 32px;
+$titleSm: 24px;
+$titleLetterSpacing: 3.2px;
+$pFontLg: 16px;
+$pFontSm: 12px;
+$btnBg: #bc7d6a;
+$btnHover: #966254;
+$inputFs:17px;
 
 * {
   margin: 0;
@@ -8,5 +17,5 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
