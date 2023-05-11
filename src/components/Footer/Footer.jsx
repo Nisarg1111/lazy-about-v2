@@ -4,6 +4,7 @@ import ig from "../../assets/images/insta-icon.png";
 import fb from "../../assets/images/fb-icon.png";
 import linkedin from "../../assets/images/linkedin-icon.png";
 import twitter from "../../assets/images/twitter-icon.png";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -47,9 +48,15 @@ export const Footer = () => {
                 <div>
                   <ul className="footer-list">
                     <li className="footer-list-item">Help</li>
-                    <li className="footer-list-item">Help Center</li>
-                    <li className="footer-list-item">About Us</li>
-                    <li className="footer-list-item">Contact Us</li>
+                    <li className="footer-list-item">
+                      <Link to={"/help-center"} className="footer-list-item">Help Center</Link>
+                    </li>
+                    <li className="footer-list-item">
+                      <Link to={"/contact-us"} className="footer-list-item">Contact Us</Link>
+                    </li>
+                    <li className="footer-list-item">
+                      <Link to={"/about-us"} className="footer-list-item">About Us</Link>
+                    </li>
                     <li className="footer-list-item">Privacy Policy</li>
                     <li className="footer-list-item">Terms of Use</li>
                     <li className="footer-list-item">Shop</li>
