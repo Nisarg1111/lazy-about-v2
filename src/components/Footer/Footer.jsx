@@ -1,9 +1,9 @@
 import "./Footer.scss";
-import logo from "../../assets/logo.png";
-import ig from "../../assets/insta-icon.png";
-import fb from "../../assets/fb-icon.png";
-import linkedin from "../../assets/linkedin-icon.png";
-import twitter from "../../assets/twitter-icon.png";
+import logo from "../../assets/images/logo.png";
+import ig from "../../assets/images/insta-icon.png";
+import fb from "../../assets/images/fb-icon.png";
+import linkedin from "../../assets/images/linkedin-icon.png";
+import twitter from "../../assets/images/twitter-icon.png";
 
 export const Footer = () => {
   return (

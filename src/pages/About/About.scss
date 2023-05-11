@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+.about-container {
+  width: 100%;
+  box-sizing: border-box;
+
+  .about-banner {
+    padding: 4rem 2rem;
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: $titleLetterSpacing;
+      font-size: $titleLg;
+    }
+    p {
+      font-size: $pFontLg;
+    }
+
+    img {
+      width: 100%;
+    //   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+
+    .descr {
+      text-transform: capitalize;
+    }
+  }
+}
